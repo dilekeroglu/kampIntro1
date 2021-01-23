@@ -7,7 +7,7 @@ namespace GenericsIntro
     class MyList<T>
     {
         T[] items;
-        //constructor classın adı ile ayn olur metottur.classı newlediğimizde consructor başlangıçta otomatik çalışır.
+        //constructor classın adı ile aynı olur metottur.classı newlediğimizde consructor başlangıçta otomatik çalışır.
         public MyList()
         {
             items = new T[0];
